@@ -1,7 +1,7 @@
 execfile( "ext/Soja/bin/concat_js.py" )
 
 # main lib
-concat_js( "src", "html/gen/TestLabs.js", "html/gen/TestLabs.css" )
+concat_js( "src", "html/gen/TutoLab.js", "html/gen/TutoLab.css" )
 
 # ext tools
 for plugins_dir in [ "plugins" ]:
